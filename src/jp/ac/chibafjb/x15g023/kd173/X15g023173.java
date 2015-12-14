@@ -7,9 +7,10 @@ public class X15g023173 {
 	public static void main(String[] args) {
 		Scanner sin = new Scanner(System.in);
 		int k = 3;
+		int[] data = {0,0,0,0};
 		for(int i=0;i<k;i++)
 		{
-			int data[i] = sin.nextInt();
+			data[i] = sin.nextInt();
 		}
 		sin.close();
 		for(int i=k;i>=1;i--)
